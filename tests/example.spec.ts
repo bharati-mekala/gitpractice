@@ -5,6 +5,7 @@ test('has title', async ({ page }) => {
 
   await expect(page).toHaveTitle(/Playwright/);
   console.log("hello")
+  console.log("done")
 });
 
 
